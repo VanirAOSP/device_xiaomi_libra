@@ -397,8 +397,8 @@
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
     <integer name="config_buttonBrightnessSettingDefault">153</integer>
 
-    <!-- Hardware keys keep back always on -->
-    <bool name="config_hwKeysBackAlwaysOn">true</bool>
+    <!-- Hardware keys keep back always on 
+    <bool name="config_hwKeysBackAlwaysOn">true</bool> -->
 
     <!-- Support in Surfaceflinger for blur layers.
            NOTE: This requires additional hardware-specific code. -->
