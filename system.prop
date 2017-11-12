@@ -75,6 +75,9 @@ ro.sys.display.support=23
 # CNE
 persist.cne.feature=1
 
+# DPM
+persist.dpm.feature=0
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
@@ -93,6 +96,7 @@ mmp.enable.3g2=true
 persist.debug.sf.statistics=1
 vidc.debug.level=1
 vidc.enc.dcvs.extra-buff-count=2
+persist.media.treble_omx=false
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
@@ -123,9 +127,6 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=20,20
 ro.use_data_netmgrd=true
 telephony.lteOnCdmaDevice=1
-
-# Sdcardfs
-ro.sys.sdcardfs=true
 
 # Sensors
 ro.qc.sdk.camera.facialproc=false
